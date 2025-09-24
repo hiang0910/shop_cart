@@ -26,24 +26,17 @@ Mục tiêu là thực hành quản lý state với Redux, lưu giỏ hàng khi 
 
 ---
 
-## 📦 Cài đặt & Chạy project
+ 📦 Cài đặt & Chạy project
 
 1. **Clone project:**
-   ```bash
+ 
    git clone https://github.com/hiang0910/shop_cart.git
    cd shopping-cart
 Cài đặt dependencies:
-
-bash
-Copy code
 npm install
+
 Chạy project:
-
-bash
-Copy code
 npm run dev
-Mở trình duyệt:
 
-arduino
-Copy code
+Mở trình duyệt:
 http://localhost:5173/
