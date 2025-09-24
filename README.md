@@ -1,16 +1,49 @@
-# React + Vite
+# 🛒 Shopping Cart Demo (React + Redux + Vite)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Đây là project demo giỏ hàng đơn giản sử dụng **React + Redux Toolkit + Vite**.  
+Mục tiêu là thực hành quản lý state với Redux, lưu giỏ hàng khi reload trang, và gọi API với Axios.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Tính năng
 
-## React Compiler
+- Hiển thị danh sách sản phẩm (ảnh, tên, giá).
+- Thêm sản phẩm vào giỏ hàng.
+- Xóa từng sản phẩm khỏi giỏ hàng.
+- Xóa toàn bộ giỏ hàng.
+- Tính tổng tiền giỏ hàng.
+- Lưu dữ liệu giỏ hàng vào `localStorage` → reload trang không bị mất.
+- Giao diện cơ bản: **Header + Sản phẩm + Giỏ hàng + Footer**.
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Công nghệ sử dụng
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- ⚛️ [React](https://react.dev/) (Vite + JSX)
+- 📦 [Redux Toolkit](https://redux-toolkit.js.org/) (quản lý state)
+- 🌐 [Axios](https://axios-http.com/) (gọi API)
+- ⚡ [Vite](https://vite.dev/) (build tool)
+
+---
+
+## 📦 Cài đặt & Chạy project
+
+1. **Clone project:**
+   ```bash
+   git clone https://github.com/your-username/shopping-cart.git
+   cd shopping-cart
+Cài đặt dependencies:
+
+bash
+Copy code
+npm install
+Chạy project:
+
+bash
+Copy code
+npm run dev
+Mở trình duyệt:
+
+arduino
+Copy code
+http://localhost:5173/
