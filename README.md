@@ -32,11 +32,15 @@ Mục tiêu là thực hành quản lý state với Redux, lưu giỏ hàng khi 
  
    git clone https://github.com/hiang0910/shop_cart.git
    cd shopping-cart
+
+   
 Cài đặt dependencies:
 npm install
 
+
 Chạy project:
 npm run dev
+
 
 Mở trình duyệt:
 http://localhost:5173/
